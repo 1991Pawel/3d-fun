@@ -20,7 +20,6 @@ export function FloatingText3D({
   color = 'white',
   floatSpeed = 1,
   floatAmount = 0.2,
-  side = 'left',
 }: FloatingText3DProps) {
   const ref = useRef<THREE.Group>(null!)
 
