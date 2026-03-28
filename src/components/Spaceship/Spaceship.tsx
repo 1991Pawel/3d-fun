@@ -23,12 +23,13 @@ export function Spaceship(props: JSX.IntrinsicElements['group']) {
     const t = clock.getElapsedTime()
     animatedRef.current.rotation.x = Math.sin(t * 1.2) * 0.2
 
-    const targetDown = scrollDirection.current === "down" ? 0.3 : 0
+    const targetDown = scrollDirection.current === "down" ? 0.15 : 0
     animatedRef.current.rotation.z = THREE.MathUtils.lerp(
       animatedRef.current.rotation.z,
       targetDown,
       0.05
     )
+
   })
 
   return (

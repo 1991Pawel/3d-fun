@@ -6,7 +6,7 @@ export default function App() {
     <main  className='main-wrapper'>
     
   <div className="section section1">
-       <div className="section-content">
+       {/* <div className="section-content">
          <h1>Paweł Leśnik</h1>
         <p>Front-end-developer</p>
        </div>
@@ -33,7 +33,7 @@ export default function App() {
     <div className="section-content">
      
        </div>
-       
+        */}
        
         </div>
         <div className="canvas-wrapper">
