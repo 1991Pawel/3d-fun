@@ -19,7 +19,7 @@ export function MovingStars() {
 
   return (
     <group ref={ref}>
-      <Stars radius={100} depth={50} count={10000} factor={4} fade speed={5} />
+      <Stars radius={100} depth={50} count={10000} factor={window.innerWidth < 768 ? 8 : 4} fade speed={5} />
     </group>
   )
 }
