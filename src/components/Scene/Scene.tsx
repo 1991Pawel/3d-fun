@@ -39,7 +39,7 @@ export function Scene() {
    
 
       <World>
-        <Mars position={[7, 4, 2]} scale={1} />
+        <Mars position={window.innerWidth < 768 ? [1.5, -2.5, -3] : [7, 4, 2]} scale={window.innerWidth < 768 ? 0.8 : 1} />
         <Deimos position={[-2.5, -4.65, -2]} scale={0.0003} />
         <Deimos position={[-7.5, -6.65, -2]} scale={0.0002} />
         <Deimos position={[3.5, -8.65, -3]} scale={0.0001} />

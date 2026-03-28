@@ -47,6 +47,10 @@
             right: 50px;
             text-align: right;
         }
+
+        @media (max-width: $bp-md) {
+            top: 55%;
+        }
     }
 
     .contact-list {
@@ -60,7 +64,7 @@
             color: $color-text;
             text-decoration: none;
             font-size: 1.1rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            border-bottom: 1px solid #3b3b3f;
             padding-bottom: 0.2rem;
             transition: border-color 0.2s, color 0.2s;
 
@@ -79,8 +83,8 @@
         justify-content: flex-end;
 
         li {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: #16161b;
+            border: 1px solid #232327;
             padding: 0.3rem 0.8rem;
             font-size: 0.85rem;
             color: $color-text-muted;
