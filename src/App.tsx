@@ -21,7 +21,7 @@ export default function App() {
   }, [])
 
   return (
-    <main className='main-wrapper'>
+    <main className="main-wrapper">
       <div className="canvas-wrapper">
         <Scene />
       </div>
@@ -36,7 +36,10 @@ export default function App() {
       <div className="section section2">
         <div className="section-content section-content--right">
           <h2>About Me</h2>
-          <p>Jestem frontend developerem z pięcioletnim doświadczeniem, głównie w React. Codziennie staram się uczyć czegoś nowego, ostatnio mocniej wchodzę w 3D i WebGL.</p>
+          <p>
+            Jestem frontend developerem z pięcioletnim doświadczeniem, głównie w React.
+            Codziennie staram się uczyć czegoś nowego, ostatnio mocniej wchodzę w 3D i WebGL.
+          </p>
           <ul className="tech-list">
             <li>React / Next.js</li>
             <li>TypeScript</li>
