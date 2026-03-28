@@ -49,11 +49,12 @@ export function Scene() {
         <Deimos position={[-1.0, -7.5, 0.5]} scale={0.0003} />
         <Deimos position={[2.8, -0.5, -3.0]} scale={0.0002} />
         <Deimos position={[-6.0, -1.5, -1.0]} scale={0.0001} />
-        <Deimos position={[0.5, -3.8, 3.5]} scale={0.0004} />
+      
         <Deimos position={[-3.5, -5.8, 1.5]} scale={0.0002} />
         <Deimos position={[4.2, -2.7, -2.5]} scale={0.0003} />
         <Deimos position={[-5.0, 0.5, 0.8]} scale={0.0001} />
         <Satelite position={[-6, -2.5, 0]} scale={0.010} />
+   
       </World>
          <Spaceship rotation={[Math.PI / 2, Math.PI / 2, 0]} scale={0.06} />
 
