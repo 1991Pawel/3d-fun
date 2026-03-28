@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
-import { useGLTF } from '@react-three/drei'
+import { useGLTF, Center } from '@react-three/drei'
 import * as THREE from 'three'
 
 export function Mars(props: JSX.IntrinsicElements['group']) {
@@ -17,7 +17,9 @@ export function Mars(props: JSX.IntrinsicElements['group']) {
   return (
     <group ref={ref} {...props}>
       <pointLight color={"#ff4400"} position={[2, 1, 3]} intensity={20} distance={100} decay={1} />
-      <primitive object={scene} />
+      <Center>
+        <primitive object={scene} />
+      </Center>
     </group>
   )
 }
