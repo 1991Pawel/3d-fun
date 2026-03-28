@@ -37,8 +37,8 @@ export default function App() {
         <div className="section-content section-content--right">
           <h2>About Me</h2>
           <p>
-            Jestem frontend developerem z pięcioletnim doświadczeniem, głównie w React.
-            Codziennie staram się uczyć czegoś nowego, ostatnio mocniej wchodzę w 3D i WebGL.
+            Frontend developer with 5&nbsp;years of experience, mainly in React.
+            I learn something new every day and I enjoy working on interesting projects.
           </p>
           <ul className="tech-list">
             <li>React / Next.js</li>
@@ -55,7 +55,7 @@ export default function App() {
       <div className="section section3">
         <div className="section-content">
           <h2>Contact</h2>
-          <p>Masz pytanie albo chcesz pogadać o kodzie? Tu mnie znajdziesz.</p>
+          <p>Got a question or just want to talk about code? You'll find me here.</p>
           <ul className="contact-list">
             <li>
               <a href="mailto:lesnik.pawel1991@gmail.com">lesnik.pawel1991@gmail.com</a>

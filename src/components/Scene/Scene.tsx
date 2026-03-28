@@ -34,6 +34,7 @@ export function Scene() {
   return (
     <Canvas camera={{ position: [0, 0, 10], fov: 45 }}>
       <ambientLight intensity={4} />
+      {window.innerWidth < 768 && <directionalLight intensity={6} position={[5, 5, 5]} />}
 
    
 
