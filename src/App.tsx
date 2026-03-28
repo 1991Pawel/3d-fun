@@ -37,8 +37,8 @@ export default function App() {
         <div className="section-content section-content--right">
           <h2>About Me</h2>
           <p>
-            Jestem frontend developerem z 5&nbsp;latami doswiadczenia, glownie w React.
-            Codziennie staram sie uczyc czegos nowego i lubie ciekawe projekty.
+            Frontend developer z 5 letnim doswiadczeniem, glownie w bibliotece React.
+            Lubie ambitne projekty i stale poszerzam swoje umiejetnosci.
           </p>
           <ul className="tech-list">
             <li>React / Next.js</li>

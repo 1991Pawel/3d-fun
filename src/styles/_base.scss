@@ -33,6 +33,7 @@
         h2 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
+            color: #e0e0ee;
         }
 
         p {
@@ -40,6 +41,7 @@
             color: $color-text-muted;
             line-height: 1.6;
             margin-bottom: 1.5rem;
+            text-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
         }
 
         &--right {
