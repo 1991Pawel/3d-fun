@@ -1,9 +1,18 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Lenis from 'lenis'
+import { useProgress } from '@react-three/drei'
 import { Scene } from './components/Scene/Scene'
+import { Loader } from './components/Loader/Loader'
 import './styles/global.scss'
 
 export default function App() {
+  const { progress, total } = useProgress()
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    if (total > 0 && progress === 100) setIsLoading(false)
+  }, [progress, total])
+
   useEffect(() => {
     const lenis = new Lenis({
       duration: 2,
@@ -22,6 +31,7 @@ export default function App() {
 
   return (
     <main className="main-wrapper">
+      {isLoading && <Loader />}
       <div className="canvas-wrapper">
         <Scene />
       </div>
