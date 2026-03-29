@@ -6,6 +6,7 @@ import { Mars } from '../Mars/Mars'
 import { World } from '../World/World'
 import { Satelite } from '../Satelite/Satelite'
 import { Deimos } from '../Deimos/Deimos'
+import { Cloud } from '@react-three/drei'
 import { scrollY, scrollDirection } from '../../store/scroll'
 
 
@@ -57,10 +58,14 @@ export function Scene() {
           position={window.innerWidth < 768 ? [-2, -3, -2] : [-5, -5, -5]}
           scale={window.innerWidth < 768 ? 0.015 : 0.03}
         />
+
    
       </World>
+        
          <Spaceship rotation={[Math.PI / 2, Math.PI / 2, 0]} scale={0.06} />
 
+     
+   
       <MovingStars />
     </Canvas>
   )
