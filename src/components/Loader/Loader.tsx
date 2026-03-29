@@ -3,6 +3,7 @@ export function Loader() {
     <div style={{
       position: 'fixed',
       inset: 0,
+      zIndex: 100,
       background: '#0a0a0f',
       display: 'flex',
       alignItems: 'center',
