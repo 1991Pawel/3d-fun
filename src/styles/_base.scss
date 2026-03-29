@@ -33,15 +33,16 @@
         h2 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            color: #e0e0ee;
+             color: #fff;
         }
 
         p {
             font-size: 1.2rem;
             color: $color-text-muted;
             line-height: 1.6;
+            color: #fff;
             margin-bottom: 1.5rem;
-            text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+            text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.7);
         }
 
         &--right {
@@ -51,7 +52,7 @@
         }
 
         @media (max-width: $bp-md) {
-            top: 55%;
+            top: 70%;
         }
     }
 
