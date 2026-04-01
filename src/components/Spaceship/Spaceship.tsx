@@ -70,7 +70,7 @@ export function Spaceship(props: JSX.IntrinsicElements['group']) {
       <group rotation={[0, Math.PI, 0]}>
         <group ref={animatedRef}>
         <Cloud ref={cloudRef} position={[-50,0,0]} opacity={.15} speed={0} />
-        <Cloud position={[-49,0,0]} opacity={.15} speed={0} />
+       
           
           
 
